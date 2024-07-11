@@ -1,3 +1,23 @@
-from django.shortcuts import render
+from django.shortcuts import render, redirect
+from .models import Users
+from .forms import UsersForm
 
-# Create your views here.
+
+def startpage(request):
+    return render(request, 'welcomepage/welcome.html')
+
+def singin(request):
+    error = ''
+    if request.method == 'POST':
+        form = UsersForm(request.POST)
+        if form.is_valid():
+            form.save()
+            return redirect('index.html/')
+        else:
+            error = 'Некоректное заполнение формы'
+    form = UsersForm()
+    data = {
+        'form': form,
+        'error': error
+    }
+    return render(request, 'loginapp/login.html', data)
