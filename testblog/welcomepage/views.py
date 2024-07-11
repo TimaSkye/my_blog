@@ -12,7 +12,7 @@ def singin(request):
         form = UsersForm(request.POST)
         if form.is_valid():
             form.save()
-            return redirect('index.html/')
+            return redirect('mainpage/')
         else:
             error = 'Некоректное заполнение формы'
     form = UsersForm()

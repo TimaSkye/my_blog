@@ -5,14 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e2394eba-c8c1-4794-8864-dcae1d6f1044" name="Changes" comment="start project">
-      <change afterPath="$PROJECT_DIR$/testblog/welcomepage/forms.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/djtest.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/djtest.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testblog/testblog/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/testblog/testblog/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/testblog/testblog/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/testblog/testblog/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testblog/welcomepage/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/testblog/welcomepage/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testblog/welcomepage/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/testblog/welcomepage/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testblog/welcomepage/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/testblog/welcomepage/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testblog/welcomepage/templates/welcomepage/head.html" beforeDir="false" afterPath="$PROJECT_DIR$/testblog/welcomepage/templates/welcomepage/head.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testblog/welcomepage/templates/welcomepage/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/testblog/welcomepage/templates/welcomepage/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testblog/welcomepage/templates/welcomepage/welcome.html" beforeDir="false" afterPath="$PROJECT_DIR$/testblog/welcomepage/templates/welcomepage/welcome.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,6 +45,13 @@
     "git-widget-placeholder": "master"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\PYprojects\djtest\testblog\welcomepage\static\welcomepage\img" />
+      <recent name="E:\PYprojects\djtest\testblog\welcomepage\static\welcomepage\css" />
+      <recent name="E:\PYprojects\djtest\testblog\welcomepage\templates\welcomepage" />
+    </key>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -71,7 +76,15 @@
       <option name="project" value="LOCAL" />
       <updated>1720687191491</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="start project">
+      <option name="closed" value="true" />
+      <created>1720687929971</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1720687929971</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
