@@ -5,12 +5,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e2394eba-c8c1-4794-8864-dcae1d6f1044" name="Changes" comment="start project">
-      <change beforePath="$PROJECT_DIR$/.idea/djtest.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/djtest.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testblog/mainpage/templates/mainpage/bio.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testblog/mainpage/templates/mainpage/callback.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testblog/mainpage/templates/mainpage/content.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testblog/mainpage/templates/mainpage/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testblog/mainpage/templates/mainpage/nocode.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testblog/mainpage/templates/mainpage/pybots.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testblog/mainpage/templates/mainpage/pydjango.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testblog/mainpage/templates/mainpage/pykivy.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testblog/mainpage/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testblog/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/testblog/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testblog/testblog/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/testblog/testblog/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/testblog/testblog/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/testblog/testblog/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testblog/welcomepage/templates/welcomepage/head.html" beforeDir="false" afterPath="$PROJECT_DIR$/testblog/welcomepage/templates/welcomepage/head.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testblog/welcomepage/templates/welcomepage/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/testblog/welcomepage/templates/welcomepage/login.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/testblog/welcomepage/templates/welcomepage/welcome.html" beforeDir="false" afterPath="$PROJECT_DIR$/testblog/welcomepage/templates/welcomepage/welcome.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testblog/welcomepage/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/testblog/welcomepage/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testblog/welcomepage/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/testblog/welcomepage/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,6 +57,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\PYprojects\djtest\testblog\mainpage\templates\mainpage" />
       <recent name="E:\PYprojects\djtest\testblog\welcomepage\static\welcomepage\img" />
       <recent name="E:\PYprojects\djtest\testblog\welcomepage\static\welcomepage\css" />
       <recent name="E:\PYprojects\djtest\testblog\welcomepage\templates\welcomepage" />
@@ -84,7 +95,15 @@
       <option name="project" value="LOCAL" />
       <updated>1720687929971</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="start project">
+      <option name="closed" value="true" />
+      <created>1720690149038</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1720690149038</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">

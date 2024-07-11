@@ -12,7 +12,7 @@ def singin(request):
         form = UsersForm(request.POST)
         if form.is_valid():
             form.save()
-            return redirect('mainpage/')
+            return redirect('/mainpage/')
         else:
             error = 'Некоректное заполнение формы'
     form = UsersForm()
@@ -20,4 +20,4 @@ def singin(request):
         'form': form,
         'error': error
     }
-    return render(request, 'loginapp/login.html', data)
+    return render(request, 'welcomepage/login.html', data)

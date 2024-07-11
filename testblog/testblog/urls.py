@@ -5,5 +5,6 @@ from django.urls import path, include
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', include('welcomepage.urls'))
+    path('', include('welcomepage.urls')),
+    path('mainpage/', include('mainpage.urls')),
 ] + static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
