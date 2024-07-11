@@ -5,22 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e2394eba-c8c1-4794-8864-dcae1d6f1044" name="Changes" comment="start project">
-      <change afterPath="$PROJECT_DIR$/testblog/mainpage/templates/mainpage/bio.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testblog/mainpage/templates/mainpage/callback.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testblog/mainpage/templates/mainpage/content.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testblog/mainpage/templates/mainpage/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testblog/mainpage/templates/mainpage/nocode.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testblog/mainpage/templates/mainpage/pybots.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testblog/mainpage/templates/mainpage/pydjango.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testblog/mainpage/templates/mainpage/pykivy.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testblog/mainpage/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/testblog/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/testblog/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testblog/mainpage/templates/mainpage/bio.html" beforeDir="false" afterPath="$PROJECT_DIR$/testblog/mainpage/templates/mainpage/bio.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testblog/mainpage/templates/mainpage/callback.html" beforeDir="false" afterPath="$PROJECT_DIR$/testblog/mainpage/templates/mainpage/callback.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testblog/mainpage/templates/mainpage/content.html" beforeDir="false" afterPath="$PROJECT_DIR$/testblog/mainpage/templates/mainpage/content.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testblog/mainpage/templates/mainpage/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/testblog/mainpage/templates/mainpage/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testblog/mainpage/templates/mainpage/nocode.html" beforeDir="false" afterPath="$PROJECT_DIR$/testblog/mainpage/templates/mainpage/nocode.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testblog/mainpage/templates/mainpage/pybots.html" beforeDir="false" afterPath="$PROJECT_DIR$/testblog/mainpage/templates/mainpage/pybots.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testblog/mainpage/templates/mainpage/pydjango.html" beforeDir="false" afterPath="$PROJECT_DIR$/testblog/mainpage/templates/mainpage/pydjango.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testblog/mainpage/templates/mainpage/pykivy.html" beforeDir="false" afterPath="$PROJECT_DIR$/testblog/mainpage/templates/mainpage/pykivy.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testblog/mainpage/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/testblog/mainpage/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testblog/mainpage/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/testblog/mainpage/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/testblog/testblog/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/testblog/testblog/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testblog/testblog/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/testblog/testblog/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testblog/welcomepage/templates/welcomepage/welcome.html" beforeDir="false" afterPath="$PROJECT_DIR$/testblog/welcomepage/templates/welcomepage/welcome.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testblog/welcomepage/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/testblog/welcomepage/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testblog/welcomepage/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/testblog/welcomepage/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testblog/welcomepage/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/testblog/welcomepage/admin.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -103,7 +101,15 @@
       <option name="project" value="LOCAL" />
       <updated>1720690149038</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="start project">
+      <option name="closed" value="true" />
+      <created>1720691165757</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1720691165757</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">

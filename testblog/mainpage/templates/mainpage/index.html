@@ -30,10 +30,10 @@
                 <div class="offcanvas-body">
                     <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="content.html">На главную страницу</a>
+                            <a class="nav-link active" aria-current="page" href="{% url 'content' %}">На главную страницу</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="bio.html">Обо мне</a>
+                            <a class="nav-link" href="{% url 'bio' %}">Обо мне</a>
                         </li>
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
@@ -41,16 +41,16 @@
                                 Мои проекты
                             </a>
                             <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="pydjango.html">Python Django</a></li>
-                                <li><a class="dropdown-item" href="pykivy.html">Kivy/KivyMD</a></li>
-                                <li><a class="dropdown-item" href="pybots.html">Aiogram3</a></li>
+                                <li><a class="dropdown-item" href="{% url 'pydjango' %}">Python Django</a></li>
+                                <li><a class="dropdown-item" href="{% url 'pykivy' %}">Kivy/KivyMD</a></li>
+                                <li><a class="dropdown-item" href="{% url 'pybots' %}">Aiogram3</a></li>
                                 <li>
                                     <hr class="dropdown-divider">
                                 </li>
-                                <li><a class="dropdown-item" href="nocode.html">NoCode проекты</a></li>
+                                <li><a class="dropdown-item" href="{% url 'nocode' %}">NoCode проекты</a></li>
                             </ul>
                         <li class="nav-item">
-                            <a class="nav-link" href="callback.html">Форма обратной связи</a>
+                            <a class="nav-link" href="{% url 'callback' %}">Форма обратной связи</a>
                         </li>
                         </li>
                     </ul>
