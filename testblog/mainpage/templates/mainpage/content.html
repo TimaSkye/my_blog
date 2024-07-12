@@ -5,5 +5,28 @@
 {% block title %}Блог{% endblock %}
 
 {% block content %}
-
+<div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="{% static 'mainpage/img/pydjango.jpg' %}" class="img-fluid rounded mx-auto d-block" alt="Проекты на Python Django">
+    </div>
+    <div class="carousel-item">
+      <img src="{% static 'mainpage/img/pykivy.jpg' %}" class="img-fluid rounded mx-auto d-block" alt="Проекты на Python Kivy/KivyMD">
+    </div>
+    <div class="carousel-item">
+      <img src="{% static 'mainpage/img/pybots.png' %}" class="img-fluid rounded mx-auto d-block" alt="Проекты на Python Aiogram3">
+    </div>
+    <div class="carousel-item">
+      <img src="{% static 'mainpage/img/nocode.png' %}" class="img-fluid rounded mx-auto d-block" alt="NoCode проекты">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Предыдущий</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Следующий</span>
+  </button>
+</div>
 {% endblock %}

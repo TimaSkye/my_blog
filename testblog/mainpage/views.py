@@ -1,7 +1,7 @@
 from django.shortcuts import render
 
 def mainpage(request):
-    return render(request, 'mainpage/index.html')
+    return render(request, 'mainpage/content.html')
 
 def bio(request):
     return render(request, 'mainpage/bio.html')
